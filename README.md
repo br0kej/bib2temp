@@ -12,3 +12,10 @@ editing, and peer review for your first scientific journal article"
 The script has been tested heavily on both prior and derivative work bibtex exports 
 from [Connected Paper](https://www.connectedpapers.com/) - Your mileage may vary!
 
+## Quickstart
+```bash
+python3 -m venv venv                # create virtualenv
+source venv/bin/activate            # activate venv
+pip install -r requirements.txt     # install requirements
+python3 bib2temp.py <bibtex file>   # execute script and generate templates
+```
